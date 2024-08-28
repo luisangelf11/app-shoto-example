@@ -1,0 +1,21 @@
+{
+  "name": "app-shoto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "shoto-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.0"
+  }
+}
