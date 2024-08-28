@@ -4,7 +4,7 @@ import person from './routes/personRoute.js';
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url';
 
-const app = new Application(3000);
+const app = new Application(3000, true);
 //Upload file
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const fileTypeRegex = /jpg|png|jpeg|gif|JPG|PNG/
